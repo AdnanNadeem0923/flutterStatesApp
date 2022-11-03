@@ -62,8 +62,14 @@ class _StatesPageState extends State<StatesPage> {
                         }
                       },
                       icon: Icon(Icons.delete)),
-                  title: Text(states[index]['state']),
-                  subtitle: Text('capital: ${states[index]['capital']}'),
+                  title: Text(
+                    states[index]['state'],
+                    style: TextStyle(fontStyle: FontStyle.italic),
+                  ),
+                  subtitle: Text(
+                    'capital: ${states[index]['capital']}',
+                    style: TextStyle(fontStyle: FontStyle.italic),
+                  ),
                 );
               },
               itemCount: states.length,
