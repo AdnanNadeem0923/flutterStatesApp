@@ -53,7 +53,7 @@ class _StatesPageState extends State<StatesPage> {
               itemBuilder: (context, index) {
                 return ListTile(
                   trailing: IconButton(
-                      color: Colors.redAccent,
+                      color: Colors.blueGrey,
                       onPressed: () async {
                         bool deleteStates = await ApiService.deleteState(
                             states[index]['state']);
