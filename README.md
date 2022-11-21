@@ -1,6 +1,7 @@
 # assignment_api
 
 A new Flutter project.
+A Full Stack App which is connected to our nodeJs backend
 
 ## Getting Started
 
